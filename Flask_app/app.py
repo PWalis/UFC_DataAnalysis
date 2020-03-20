@@ -7,8 +7,8 @@ def create_app():
 
     app = Flask(__name__)
 
-    @app.route('/')
+    @app.route("/")
     def home():
-        return ('<h1>hello<h1>')
+        return ("<h1>hello<h1>")
     
     return app
